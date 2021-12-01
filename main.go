@@ -21,7 +21,7 @@ type bResponse struct {
 var db = map[int]wallet{}
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("1966931025:AAFYgJmUrcAATUc4Ny2emytbw5IzagB_SME")
+	bot, err := tgbotapi.NewBotAPI("")
 	if err != nil {
 		log.Panic(err)
 	}
